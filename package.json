@@ -1,6 +1,6 @@
 {
   "name": "mycart-lib",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "My cart library with UI components and cart logic",
   "private": false,
   "main": "./dist/mycart-lib.umd.js",
@@ -20,7 +20,12 @@
     "preview": "vite preview",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["react", "cart", "ui", "library"],
+  "keywords": [
+    "react",
+    "cart",
+    "ui",
+    "library"
+  ],
   "author": "Vi021",
   "license": "MIT",
   "peerDependencies": {
