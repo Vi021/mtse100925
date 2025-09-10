@@ -1,0 +1,36 @@
+{
+  "name": "mycart-lib",
+  "version": "1.0.0",
+  "description": "My cart library with UI components and cart logic",
+  "private": false,
+  "main": "./dist/mycart-lib.umd.js",
+  "module": "./dist/mycart-lib.es.js",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "import": "./dist/mycart-lib.es.js",
+      "require": "./dist/mycart-lib.umd.js"
+    }
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["react", "cart", "ui", "library"],
+  "author": "Vi021",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": ">=18",
+    "react-dom": ">=18"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.0.2",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "vite": "^7.1.5"
+  }
+}
